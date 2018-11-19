@@ -45,7 +45,7 @@ const init = async () => {
     client.levelCache[thisLevel.name] = thisLevel.level;
   }
 
-  client.login(client.config.token);
+  client.login(botTOKEN);
 
 };
 
